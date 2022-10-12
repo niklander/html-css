@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*tudo que em HTML é id = em CSS é #
+ em HTML é class = em CSS é .*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+background-color: #E18571;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+color:#5C2012;
+}
+
+h1#principal{
+    color:#E18571;
+    text-align: center;
+    background-color: #5C2012;
+}
+
+h2{
+color:#5c362ece;
+}
+.basico{
+    color:#28E069;
+    font-weight: bold;
+}
+.intermediario{
+color:
+#266B3E ;
+font-weight: bold;
+}
+.avancado{
+color: #256B63;
+font-weight: bold;
+}
+.destaque{
+    background-color: rgba(201, 201, 97, 0.666);
+    font-family: 'Great Vibes', cursive;
+}

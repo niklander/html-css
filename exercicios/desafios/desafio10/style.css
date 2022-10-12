@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: aqua;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(50, 150, 39, 0.553),rgba(168, 231, 167, 0.784));
+color: white;
+margin: 0px;
+text-align: center;
+
+}
+header> h1,p{
+    height: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding-bottom: 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav>ul{
+    
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+    font-weight: bold;
+} 
+.botao{
+width: 105px ;
+height: 20px;
+border-radius: 5px;
+display: inline-block;
+}
+.botao:hover{
+ background-color: green;
+}
+
+.link{
+    background-color:rgba(50, 150, 39, 0.553) ;
+}
+main{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 0px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.488);
+    text-align: justify;
+}
+article>h1{
+    color: green;
+    font-size: 1.8em;
+    font-family: 'idroid';
+   background-image: linear-gradient(to right, rgba(100, 214, 87, 0.553),white);
+    
+}
+.bg{
+    font: size 1.5em; ;
+    color: green;
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, rgba(100, 214, 87, 0.553),white);
+}
+#not{
+margin: 0px;
+}
+#baixo{
+    background-color:white;
+}
+#mais{
+    background-color: rgba(13, 163, 13, 0.619);
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+}
+#ult{
+background-color: rgba(78, 223, 223, 0.456);
+border-radius: 0px 0px 5px 5px;
+}
+#ult>p{
+    padding: 5px;
+}
+#lista{
+    display: inline-block;
+
+}
+#list{
+    display:inline-block;
+    margin-left:100px;
+}
+
+footer{
+    background-color: green;
+    margin-bottom: 0px;
+}
+footer>p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#vid{
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.396);
+}
+.center{
+    text-align: center;
+}

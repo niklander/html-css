@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 3px -3px 5px 1px rgba(0, 0, 0, 0.342);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 6px 7px 11px rgba(0, 0, 0, 0.315);
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(93, 91, 91);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding:1px;
+            margin: 0px;
+        } footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px; 
+            width: 100px;
+            background-color: rgb(20, 232, 232);
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1>meu site</h1>
+<nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+</nav>
+</header>
+<main>
+    <section id="assuntos">
+        Esporte Politica Tcnologia
+    </section>
+<section id="noticias">
+<article>
+    <h2>Notícias sobre o Brasil</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil eius esse impedit debitis perferendis? Voluptatibus vitae, ea, beatae neque natus sunt quaerat quas distinctio est ut debitis, repudiandae harum.</p>
+    <aside>
+        <p>artigo criado por nilander andrade</p>
+    </aside>
+</article>
+<article>
+<h2>futebol</h2>
+<p>No futebol brasileiro, o Flamengo será o único clube a disputar todas as partidas da temporada, visto que é o único que mantém possibilidade de levantar as três taças que estão em aberto: Libertadores, Copa do Brasil e Brasileirão.
+
+    Mesmo com a sequência de jogos e o calendário apertado por conta da disputa da Copa do Mundo em novembro, o Flamengo de Dorival completou recentemente quatro meses sem lesões musculares e praticamente todos os jogadores estão à disposição. O treinador falou sobre a condução do trabalho e vislumbra agora uma rara pausa da 10 dias após o Fla-Flu por conta da data Fifa.
+    
+    "Estamos fazendo todos resultados possíveis, dando toda a atenção para ter a melhor equipe em campo sempre. Isso tem sido muito importante, temos que agora repensar rodada a rodada, tomarmos a posição necessária ao longo desses 10 dias"
+    - Intensificarmos com aqueles que precisam, mas não deixar de dar um pouco de volume e tendo a consciência de que não podemos exceder de forma alguma a quantificação desse trabalho. Eu acho que isso será importante. E prepararmos essa equipe para logo depois dessa parada para jogo dificílimo contra o Fortaleza, lá em Fortaleza.
+    
+    Campanha de 2017
+    Esta não é a primeira vez que o Flamengo tem o calendário cheio. Na temporada de 2017, o clube carioca disputou mais partidas do que as 77 previstas para este ano. Foram 83 jogos na ocasião.
+    
+    </p>
+    <aside><p>referencia GE.com</p></aside>
+</article>
+</section>
+</main>
+<footer>
+<p>desenvolvido por nilander!</p>
+</footer>
+<div id="bola"></div>
+</body>
+</html>
