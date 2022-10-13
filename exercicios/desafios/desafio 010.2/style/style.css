@@ -3,7 +3,7 @@
 
 @font-face{
     font-family:'idroid';
-    src: url('/fonts/idroid.otf') format('opentype');
+    src: url(fonts/idroid.otf) format('opentype');
 }
 
 :root{
@@ -96,7 +96,7 @@ main{
 
 main h1{
     color:var(--cor6);
-    font-family: var(--font-android);
+    font-family: var(--fonte-de-destaque);
     font-weight: normal;
     font-size: 1.8em;
 }
