@@ -1,0 +1,10 @@
+@charset "UTF8";
+body{
+    border: 1px dashed black;
+    background-image: url("https://gustavoguanabara.github.io/html-css/imagens/mascote.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px;
+    height: 98vh;
+    background-color: rgb(67, 8, 67);
+}
