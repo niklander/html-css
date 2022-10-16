@@ -1,0 +1,19 @@
+@charset "UTF8";
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("imagens/wallpaper002.jpg");
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding:10px;
+    margin: auto;
+    border: 1px solid rgba(57, 57, 162, 0.383);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 9px rgba(57, 57, 162, 0.327);
+}
