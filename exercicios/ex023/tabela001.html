@@ -5,11 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        tr.linha{
+            background-color: gray;
+        }
+        td.dado{
+            background-color: yellow;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>minah primeira tabela</h1>
+     <!--
+            hierarquia de tabelas (simples)
+            table = tabela
+            table row = linha de tabela
+            table header = cabeçalho de tabela
+            table data = dados de tabela
+        -->
     <table>
-        
+       <tr><!--primeira linha-->
+        <td>a1
+        <td>b1
+        <td>c1
+       </tr>
+       <tr class="linha"> <!--segunda linha-->
+        <td>a2</td>
+        <td>b2</td>
+        <td>c2</td>
+       </tr>
+       <tr><!--terceira linha-->
+        <td>a3</td>
+        <td>b3</td>
+        <td>c3</td>
+       </tr>
+       <tr>
+        <td>a4</td>
+        <td class="dado">b4</td>
+        <td>c4</td> 
+       </tr>
+       <tr>
+        <td>a5</td>
+        <td>b5</td>
+       </tr>
+       <tr>
+        <td>a6</td>
+       </tr>
+       <!-- !O FECHAMENTO DAS TDS E TRS NÃO SÃO OBRIGATORIOS SEGUNDO A W3C!-->
     </table>
+    <!--SE A HIERARQUIA NÃO FOR OBEDECIDA OS DADOS SERÃO MOSRTRADOS ENCIMA OU PO BAIXO DA TABELA -->
 </body>
 </html>
