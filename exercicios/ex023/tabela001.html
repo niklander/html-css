@@ -11,17 +11,19 @@
         }
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
-        tr.linha{
-            background-color: gray;
-        }
-        td.dado{
-            background-color: yellow;
-        }
+
         td{
             border: 1px solid black;
             padding: 8px;
+            
+            text-align: center; /*alinhamento horizontal*/
+            vertical-align: bottom ;/*alinhamento vertical*/
+        }
+        .numero{
+            text-align: right;
         }
         
     </style>
@@ -37,31 +39,24 @@
         -->
     <table>
        <tr><!--primeira linha-->
-        <td>a1
-        <td>b1
-        <td>c1
+        <td>a1</td>
+        <td>b1</td>
+        <td>c1</td>
        </tr>
        <tr class="linha"> <!--segunda linha-->
         <td>a2</td>
         <td>b2</td>
-        <td>c2</td>
+        <td class="numero">c2</td>
        </tr>
        <tr><!--terceira linha-->
         <td>a3</td>
         <td>b3</td>
-        <td>c3</td>
+        <td class=" numero">c3</td>
        </tr>
        <tr>
         <td>a4</td>
         <td class="dado">b4</td>
-        <td>c4</td> 
-       </tr>
-       <tr>
-        <td>a5</td>
-        <td>b5</td>
-       </tr>
-       <tr>
-        <td>a6</td>
+        <td class="numero">c4</td> 
        </tr>
        <!-- !O FECHAMENTO DAS TDS E TRS NÃO SÃO OBRIGATORIOS SEGUNDO A W3C!-->
     </table>
