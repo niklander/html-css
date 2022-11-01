@@ -18,7 +18,10 @@
     <!--*LABEL* ou *ETIQUETA*
     serve para ligar o nome ao objeto, ou nome da função ao *id* 
     -->
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="post">
+        <!--method=
+        get: dados ficam visiveis na url, pode ser enviado até 3000bytes pode ser usado no geral a não ser para envio de senhas imagens numeros de cartão e outros sigilosos
+        post: é usado para manter mais sigilo, porem não esconde totalmente os dados enviados, preferencialmente usado para envio de senhas e arquivos mais sigilosos -->
         <p>
             <label for="inome">nome:</label>
              <input type="text" name="nome" id="inome">
